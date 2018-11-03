@@ -25,7 +25,7 @@ body{
 
 
 header{
-    background-color: #083D77;
+    background-color: #403D58;
     color: white;
     min-height: 35rem;
 }
@@ -50,7 +50,7 @@ nav{
 }
 
 span{
-    color: #F78764;
+    color: #FC7753;
 }
 
 nav ul {
@@ -69,7 +69,7 @@ nav ul {
 
 
  .button1{
-     background: #F78764;
+     background: #FC7753;
      font-size: .8rem;
      border: none;
      padding: .9rem 2.8rem;
@@ -100,7 +100,7 @@ nav ul {
  .button2{
      color: white;
      border: none;
-     background: #F78764;
+     background: #FC7753;
      font-size: 1rem;
      padding: 1rem 2.5rem;
      margin-top: 1.8rem;
@@ -155,11 +155,11 @@ img{
  }
 
  .orange{
-     color: #F78764;
+     color: #FC7753;
  }
 
  .purple{
-     color: #DA4167;
+     color: #403D58;
  }
 
 
@@ -204,7 +204,7 @@ img{
  .box1 > .button3{
 
     color: white;
-    background: #083D77;
+    background: #403D58;
     border: none;
     padding: 1rem 2.2rem;
     font-size: 1rem;
@@ -221,7 +221,7 @@ img{
  footer{
     min-height: 5rem;
     margin-top: 16rem;
-    background: #083D77;
+    background: #403D58;
     display: flex;
     justify-content: center;
     align-items: center;
