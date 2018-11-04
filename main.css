@@ -24,8 +24,16 @@ body{
 
 
 
+
 header{
-    background-color: #403D58;
+    background-image:
+    linear-gradient(
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)), 
+        url(img/charts.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
     color: white;
     min-height: 35rem;
 }
@@ -50,7 +58,7 @@ nav{
 }
 
 span{
-    color: #FC7753;
+    color: #E05263;
 }
 
 nav ul {
@@ -69,7 +77,7 @@ nav ul {
 
 
  .button1{
-     background: #FC7753;
+     background: #E05263;
      font-size: .8rem;
      border: none;
      padding: .9rem 2.8rem;
@@ -80,14 +88,14 @@ nav ul {
 
 
  .showcase{
-     padding-top: 7.5rem;
+     padding-top: 5.5rem;
      min-height: 30rem;
       
 }
 
 
  .showcase h1{
-     font-size: 3.3rem;
+     font-size: 3.6rem;
  }
 
 
@@ -100,7 +108,7 @@ nav ul {
  .button2{
      color: white;
      border: none;
-     background: #FC7753;
+     background: #E05263;
      font-size: 1rem;
      padding: 1rem 2.5rem;
      margin-top: 1.8rem;
@@ -109,19 +117,6 @@ nav ul {
 
 
 
-.image{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
- 
-
-
-img{
-    width: 55%;
-    padding-bottom: 3rem;
-    padding-top: 8rem;
-}
 
 
 
@@ -151,15 +146,15 @@ img{
 
  /* Font Awesome Icons colors */
  .blue{
-     color: #083D77;
+     color: #E05263;
  }
 
  .orange{
-     color: #FC7753;
+     color: #E05263;
  }
 
  .purple{
-     color: #403D58;
+     color: #E05263;
  }
 
 
@@ -204,7 +199,7 @@ img{
  .box1 > .button3{
 
     color: white;
-    background: #403D58;
+    background: #E05263;
     border: none;
     padding: 1rem 2.2rem;
     font-size: 1rem;
@@ -221,7 +216,7 @@ img{
  footer{
     min-height: 5rem;
     margin-top: 16rem;
-    background: #403D58;
+    background: #3A3335;
     display: flex;
     justify-content: center;
     align-items: center;
