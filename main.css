@@ -76,13 +76,6 @@ nav ul {
 
 
 
- .button1{
-     background: #E05263;
-     font-size: .8rem;
-     border: none;
-     padding: .9rem 2.8rem;
- }
-
 
  /* Showcase Section */
 
@@ -224,4 +217,56 @@ nav ul {
 
  footer p{
      color: white;
+ }
+
+
+
+ /* Media Queries for Mobile */
+
+ @media screen and (max-width: 768px) {
+    
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    nav .logo{
+        padding-bottom: 1.5rem;
+
+    }
+
+    nav a{
+        margin: 1rem;
+        
+        
+    }
+
+    .showcase{
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: (25rem, auto);
+        grid-gap: 3rem;
+    }
+
+    .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .box2 img{
+        padding-top: 8rem;
+    }
+
  }
